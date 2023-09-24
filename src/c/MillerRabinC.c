@@ -134,14 +134,14 @@ int main(int *argc, char *argv[]){
     mpz_sub_ui(N,N,1);
     */
     clock_t start ,end;
-    unsigned long int intevalo;
+    double intevalo;
 
     start = clock();
     chamaMillerRabin();
     end = clock();
 
-    intevalo = ((unsigned long int) (end - start)) / CLOCKS_PER_SEC;
-    printf("tempo(s)=%li",intevalo);
+    intevalo = ((double) (end - start)) / CLOCKS_PER_SEC;
+    printf("tempo(s)=%f",intevalo);
     
     //mpz_clear(N);
 
