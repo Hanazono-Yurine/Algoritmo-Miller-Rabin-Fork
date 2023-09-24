@@ -147,3 +147,6 @@ int main(int *argc, char *argv[]){
 
     return 0;
 }
+
+//Comando para compilar:
+//gcc MillerRabinC.c -o mr -lgmp
