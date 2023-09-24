@@ -51,7 +51,7 @@ def MillerRabin(N):
 
 import time;   
 
-n = 11213
+n = 44497 #237316ms =~ 4min
 
 t0 = time.perf_counter_ns();
 
