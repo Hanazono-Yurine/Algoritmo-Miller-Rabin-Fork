@@ -102,7 +102,7 @@ int chamaMillerRabin(){
 
     gmp_randstate_t randstate;
     gmp_randinit_default(randstate);
-    gmp_randseed_ui(randstate,ULLONG_MAX);
+    gmp_randseed_ui(randstate,(unsigned long int) clock());
 
     mpz_t Nminus1;
     mpz_init(Nminus1);
