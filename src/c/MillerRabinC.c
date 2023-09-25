@@ -83,10 +83,10 @@ int chamaMillerRabin(){
 
     mpz_t N;
     mpz_init_set_si(N,2);
-    unsigned long int num = 44497; //5s
-    mpz_pow_ui(N,N,num);
+    unsigned long int exp = 44497; //5s
+    mpz_pow_ui(N,N,exp);
     mpz_sub_ui(N,N,1);
-    gmp_printf("N=%Zd \n",N);
+    //gmp_printf("N=%Zd \n",N);
 
     mpz_t res;
     mpz_init(res);
@@ -141,7 +141,7 @@ int main(int *argc, char *argv[]){
     end = clock();
 
     intevalo = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("tempo(s)=%f",intevalo);
+    printf("tempo(s)=%f\n",intevalo);
     
     //mpz_clear(N);
 
