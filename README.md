@@ -1,5 +1,5 @@
 ## Minha implementação do algoritmo de teste de primalidade probabilístico Miller-Rabin em linguagem diferentes
-# ⚠️ <span style="color:red"> ATENÇÃO: AS INFORMAÇÕES PRESENTES NESSE REPOSITÓRIO PODEM CONTER ERROS, NÃO UTILIZE COMO REFERÊNCIA </span> ⚠️
+# ⚠️ ATENÇÃO: AS INFORMAÇÕES PRESENTES NESSE REPOSITÓRIO PODEM CONTER ERROS, NÃO UTILIZE COMO REFERÊNCIA ⚠️
 ### Linguagens:
 - [C (usando biblioteca GMP)](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/c/MillerRabinC.c)
 - [Crystal](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/crystal/miller_rabin.cr) By [Hanazono-Yurine](https://github.com/Hanazono-Yurine)
