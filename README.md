@@ -4,7 +4,7 @@
 - [C (usando biblioteca GMP)](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/c/MillerRabinC.c)
 - [Crystal](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/crystal/miller_rabin.cr) By [Hanazono-Yurine](https://github.com/Hanazono-Yurine)
 - [Python](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/python/MillerRabinPy.py)
-- [Java](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/java/MillerRabinJava.java)
+- [Java (usando classe BigInteger)](https://github.com/RafaelHipolit/Minha-implementacao-Algoritmo-Miller-Rabin/blob/main/src/java/MillerRabinJava.java)
 
 ### Para testar a primalidade do 27º Primo de Mersenne(2^44497-1):
 - C demorou aproximadamente 10s
